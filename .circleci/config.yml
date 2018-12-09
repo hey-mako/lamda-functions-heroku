@@ -1,0 +1,9 @@
+jobs:
+  build:
+    docker:
+      - image: debian:stretch
+    steps:
+      - checkout
+      - run:
+          command: echo "Hello, World!"
+version: 2
